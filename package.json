@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.25.0",
-    "babel-preset-expo": "~56.0.13"
+    "babel-preset-expo": "~56.0.13",
+    "gh-pages": "^6.3.0"
   }
 }
