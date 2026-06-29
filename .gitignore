@@ -56,3 +56,6 @@ yarn-error.*
 
 # Testing / coverage
 coverage/
+
+# Build output
+public/

@@ -80,6 +80,19 @@ npx expo prebuild --clean
 
 Regenerate only one platform if you prefer: `--platform ios` or `--platform android`.
 
+## Publish web demo (GitHub Pages)
+
+The web build is deployed to [PT-knee-recovery-app-web](https://github.com/katpoo123/PT-knee-recovery-app-web) at **https://katpoo123.github.io/PT-knee-recovery-app-web/**.
+
+1. On that repo: **Settings → Pages** → branch **`github-pages`**, folder **`/ (root)`**.
+2. From this repo:
+
+```bash
+npm run deploy:web
+```
+
+`experiments.baseUrl` in `app.json` must match the GitHub Pages path (`/PT-knee-recovery-app-web`). A `.nojekyll` file is included so the `_expo/` assets are published.
+
 ## Medical disclaimer
 
 This app is a workout tracker based on your rehab plan. It is not medical advice. Follow your surgeon and physical therapist’s guidance.

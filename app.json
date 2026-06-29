@@ -9,6 +9,9 @@
     "icon": "./assets/icon.png",
     "scheme": "jointops",
     "platforms": ["ios", "android", "web"],
+    "experiments": {
+      "baseUrl": "/PT-knee-recovery-app-web"
+    },
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
